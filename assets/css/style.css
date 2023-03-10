@@ -1,5 +1,27 @@
+/* :root {
+    --header-bg:#2C3E50;
+} */
+
+.header-bg {
+    background-color: #2C3E50;
+}
+
 .debug {
     background-color: rgba(50, 205, 50, 0.26);
     border: 1px solid blue;
-    min-height: 50px;
+    /* min-height: 50px; */
+}
+
+.debug-2 {
+    background-color: rgba(205, 94, 50, 0.26);
+    border: 1px solid black;
+    /* min-height: 50px; */
+}
+
+header {
+    height: 80px;
+}
+
+.jumbotron {
+    height: 400px;
 }
