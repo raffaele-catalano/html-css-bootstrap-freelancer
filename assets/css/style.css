@@ -1,0 +1,5 @@
+.debug {
+    background-color: rgba(50, 205, 50, 0.26);
+    border: 1px solid blue;
+    min-height: 50px;
+}
