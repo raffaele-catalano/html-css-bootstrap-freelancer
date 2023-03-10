@@ -6,6 +6,10 @@
     background-color: #2C3E50;
 }
 
+.jumbo-bg {
+    background-color: #1ABC9C;
+}
+
 .debug {
     background-color: rgba(50, 205, 50, 0.26);
     border: 1px solid blue;
