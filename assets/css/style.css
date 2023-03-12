@@ -10,6 +10,14 @@
     background-color: #1ABC9C;
 }
 
+.tertiary-bg {
+    background-color: #3A546D;
+}
+
+.footer-bg {
+    background-color: #2C3E50;
+}
+
 .debug {
     /* background-color: rgba(50, 205, 50, 0.26); */
     border: 2px solid blue;
@@ -30,10 +38,23 @@ header {
     min-height: 400px;
 }
 
-.portfolio {
+.portfolio,
+.contact-me {
     min-height: 500px;
 }
 
 .about {
     min-height: 300px;
+}
+
+footer {
+    min-height: 250px;
+}
+
+.social {
+    min-height: 70%;
+}
+
+.copyright {
+    min-height: 30%;
 }
