@@ -2,20 +2,12 @@
     --header-bg:#2C3E50;
 } */
 
-.header-bg {
-    background-color: #2C3E50;
-}
-
 .secondary-bg {
     background-color: #1ABC9C;
 }
 
 .tertiary-bg {
     background-color: #3A546D;
-}
-
-.footer-bg {
-    background-color: #2C3E50;
 }
 
 .debug {
@@ -32,10 +24,12 @@
 
 header {
     height: 80px;
+    background-color: #2C3E50;
+    color: white;
 }
 
 .rc-jumbotron {
-    min-height: 400px;
+    height: 500px;
 }
 
 .portfolio,
@@ -43,12 +37,18 @@ header {
     min-height: 500px;
 }
 
+.rc-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
 .about {
-    min-height: 300px;
+    min-height: 400px;
 }
 
 footer {
-    min-height: 250px;
+    height: 250px;
+    background-color: #2C3E50;
 }
 
 .social {
