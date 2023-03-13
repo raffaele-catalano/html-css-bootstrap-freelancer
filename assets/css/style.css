@@ -54,6 +54,7 @@ header {
 .rc-jumbotron .star hr {
     /* width: 50%; */
     border: 2px solid white;
+    border-radius: 20px;
 }
 
 /*main*/
@@ -65,12 +66,20 @@ header {
 main .container hr {
     /* width: 50%; */
     border: 2px solid black;
+    border-radius: 20px;
 }
 
-main .container .star .fs-1 {
+main .rc-container hr {
+    /* width: 50%; */
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+main .star .fs-1 {
     position: relative;
     bottom: 16px;
 }
+
 
 main .container .card {
     border-radius: 25px;
