@@ -2,6 +2,7 @@
     --header-bg:#2C3E50;
 } */
 
+/*utilities*/
 .secondary-bg {
     background-color: #1ABC9C;
 }
@@ -22,16 +23,34 @@
     /* min-height: 50px; */
 }
 
+/*header*/
 header {
     height: 80px;
     background-color: #2C3E50;
     color: white;
 }
 
+/*jumbotron*/
 .rc-jumbotron {
     height: 500px;
 }
 
+.rc-jumbotron .user img {
+    width: 200px;
+}
+
+.rc-jumbotron .star > div {
+    display: flex;
+    align-items: center;
+
+}
+
+.rc-jumbotron .star hr {
+    /* width: 50%; */
+    border: 2px solid white;
+}
+
+/*main*/
 .portfolio,
 .contact-me {
     min-height: 500px;
