@@ -155,20 +155,44 @@
                     </div>
             </section>
 
-            <section class="contact-me debug-2">
+            <section class="contact-me">
                 <div class="container text-center">
-                    <h2>Contact Me</h2>
-                    <div class="star">&star;</div>
+                    <h2 class="pt-4 text-uppercase fw-bold">contact me</h2>
+
+                    <div class="star">
+                        <div class="row justify-content-center">
+                            <div class="col-2"><hr></div>
+                            <div class="col-1 fs-1">&starf;</div>
+                            <div class="col-2"><hr></div>
+                        </div>
+                    </div>
                 </div>
+
                     <div class="rc-container">
                         <div class="container-fluid">
-                            <div class="row justify-content-center">
-                                <div class="col-7 col-md-8 col-lg-10 debug">Name</div>
-                                <div class="col-7 col-md-8 col-lg-10 debug">Email</div>
-                                <div class="col-7 col-md-8 col-lg-10 debug">Phone</div>
-                                <div class="col-7 col-md-8 col-lg-10 debug">Message</div>
-                                <div class="col-7 col-md-8 col-lg-10 debug">Send Btn</div>
-                            </div>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name & Surname</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="surname" class="form-label">Phone Number</label>
+                                    <input type="text" class="form-control" id="surname" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea name="message" class="form-control" id="message" cols="86" rows="3"></textarea>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="check" required>
+                                    <label class="form-check-label" for="check">Accept Privacy Policy</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send</button>
+                            </form>
                         </div>
                     </div>
             </section>

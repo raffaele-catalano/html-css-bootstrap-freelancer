@@ -58,8 +58,7 @@ header {
 }
 
 /*main*/
-.portfolio,
-.contact-me {
+.portfolio {
     min-height: 500px;
 }
 
@@ -89,6 +88,10 @@ main .container .card {
 
 .about {
     min-height: 400px;
+}
+
+.contact-me {
+    height: 650px;
 }
 
 footer {
