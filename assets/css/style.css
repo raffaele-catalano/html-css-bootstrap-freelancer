@@ -2,6 +2,13 @@
     --header-bg:#2C3E50;
 } */
 
+/*general*/
+.rc-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
 /*utilities*/
 .secondary-bg {
     background-color: #1ABC9C;
@@ -39,10 +46,9 @@ header {
     width: 200px;
 }
 
-.rc-jumbotron .star > div {
-    display: flex;
-    align-items: center;
-
+.rc-jumbotron .star div:nth-child(2) {
+    position: relative;
+    bottom: 16px;
 }
 
 .rc-jumbotron .star hr {
@@ -56,9 +62,20 @@ header {
     min-height: 500px;
 }
 
-.rc-container {
-    width: 60%;
-    margin: 0 auto;
+main .container hr {
+    /* width: 50%; */
+    border: 2px solid black;
+}
+
+main .container .star .fs-1 {
+    position: relative;
+    bottom: 16px;
+}
+
+main .container .card {
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 25px;
 }
 
 .about {
